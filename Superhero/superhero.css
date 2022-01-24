@@ -1,0 +1,57 @@
+/* Align navigation content horizontally, add space between left and right naviigation */
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+#right{
+    display: flex;
+    margin-top: 10px;
+}
+/* Remove anchor tag default style */
+#right a{
+    margin: 10px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+}
+
+#heading{
+
+    margin-left: 40vw;
+}
+
+/* align details horizontally */
+#details{
+    display: flex;
+}
+
+/* set hero image width, height, boreder radius */
+#img{
+    width: 30vw;
+    height: 70vh;
+    border-radius: 20px;
+    margin-left: 5vw;
+}
+
+/* Set powers and bio sectiton width and height */
+#powers{
+    width:20vw; margin-left: 10vw;
+}
+#bio{
+    width:20vw; margin-left: 5vw;
+}
+
+
+/* To make page responsive change details section display to block belock 700px and set img,power,bio width accordingly */
+@media (max-width:700px) {
+    #details{
+        display: block;
+    } 
+    #img , #powers , #bio {
+        width:80vw; margin-left: 10vw;
+        /* text-align: center; */
+    }
+    
+}

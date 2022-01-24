@@ -1,0 +1,63 @@
+/* Style navigation bar  */
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+#right{
+    display: flex;
+    margin-top: 10px;
+}
+#right a{
+    margin: 10px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: white;
+   
+}
+
+/* Style search bar , align it in center */
+#search-div{
+    margin-top: 30px;
+    width: 40vw; height: 50px;
+    
+    margin-left: 30vw;
+}
+
+/*  Increase search bar font size */
+#search{
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+}
+
+/* Align list content in center , adjust its width and margins */
+#list-div{
+    margin-top: 20px;
+    width: 40vw;
+    margin-left: 30vw;
+    
+}
+
+#list{
+ list-style: none;
+}
+
+/* Align list content horizontally by using flex */
+#list li{
+    display: flex; justify-content: space-between; 
+}
+
+/* Remove default anchor style in list content */
+#list li a{
+    color: black;
+    font-size: 1.2rem;
+    width: 70%;
+}
+
+/* Style add to favourite button */
+.fav{
+    cursor: pointer;
+    width: 30%;
+}
