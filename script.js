@@ -30,7 +30,7 @@ async function searchlistener(e){
             const li = document.createElement('li');
                  li.innerHTML=`
                 
-                 <a href="../Superhero/superhero.html?id=${i.id}">${i.name}</a> 
+                 <a href="./Superhero/superhero.html?id=${i.id}">${i.name}</a> 
                   <p class="fav" id= ${i.id} data-name=${i.name} data-image = ${i.image.url}>Add to favorite</p>`;
                 // console.log("url",i.name,i.image.url);
                  list.append(li);
